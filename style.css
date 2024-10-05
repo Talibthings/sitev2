@@ -1,0 +1,323 @@
+.logo{
+    width: 100%;
+    text-align: left;
+    
+    
+}
+
+.logo-div{
+    
+        width: 24px;
+        height: 24px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 110px 1fr 1fr 1fr;
+    padding: 20px 24px;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 90%;
+    background-color: rgba(255,255,255, 0.98);
+    
+}
+
+@media screen and (min-width: 1100px){
+    .grid{
+    display: grid;
+    width: 49%;
+    grid-template-columns: 50% 1fr 1fr 1fr;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+}
+
+.menu{
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+
+.h1{
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+h5{
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.reviews{
+    padding: 24px 17px 0px;
+}
+
+
+.reviews-blog{
+    padding: 24px 17px 0px;
+}
+
+.arrow{
+    width: 16px;
+    height: 16px;
+    color: black;
+    vertical-align: middle;
+    margin-left: 0px;
+}
+
+.review-post{
+   padding: 0px 24px;
+}
+
+@media screen and (max-width: 1100px)  {
+    .post-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 24px;
+    }
+
+    .review-post{
+        padding: 0px 15px;
+     }
+
+        
+.button-div{
+    text-align: center;
+    margin-top: 25px;
+   
+
+}
+
+
+
+}
+
+
+@media screen and (min-width: 1100px)  {
+    .post-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 24px;
+        column-gap: 24px;
+    }
+
+    .review-post{
+        padding: 0px 15px;
+        padding-left: 400px;
+        padding-right: 400px;
+     }
+
+     .reviews{
+        padding-left: 400px;
+        padding-right: 400px;
+     }
+
+
+     
+     .reviews-blog{
+        padding-left: 400px;
+        padding-right: 400px;
+     }
+     
+.button-div{
+    text-align: center;
+    margin-top: 25px;
+    padding-left: 50px;
+        padding-right: 50px;
+}
+
+
+
+
+}
+
+
+.post{
+    padding: 16px;
+    background-color: black;
+}
+
+.post-title{
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 14px;
+}
+
+.post-info{
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(156 163 175);
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.dot{
+    vertical-align: middle;
+}
+
+.button-div{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.button{
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    padding: 8px 16px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1100px){
+    .button-div{
+     padding: 0px 0px;
+    }
+}
+
+.blog-head{
+    color: black;
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    margin-top: 8px;
+    width: 238px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.my-blog{
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+
+}
+
+.blog-content{
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.a{
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    margin-top: 8px;
+    color: black;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.next-blog-div{
+    padding-top: 24px;
+}
+
+.img-div{
+    padding-top: 100px;
+    padding-bottom: 48px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.profileimg{
+   width: 192px;
+   height: 192px;
+   border-radius: 9999px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+strong{
+    font-weight: 600;
+}
+
+.contact{
+    font-size: 36px;
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding-top: 32px;
+    padding-bottom: 102px;
+    line-height: 40px;
+}
+
+.linkcontact{
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    color: black;
+    text-decoration: underline;
+    
+}
+
+.icon{
+    margin-right: 5px;
+}
+
+.profileimg-page{
+    width: 96px;
+   height: 96px;
+   border-radius: 9999px;
+}
+
+.img-div-page{
+    padding-top: 48px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+@media screen and (min-width: 1100px)  {
+    .img-div-page{
+        padding-left: 400px;
+        
+    }
+
+
+}
+
+h2{
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-top: 0px;
+    padding-bottom: 100px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.blog-head-testimonial{
+    color: black;
+    font-family: "jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    margin-top: 8px;
+   
+    font-weight: 500;
+    margin-bottom: 0px;
+}
